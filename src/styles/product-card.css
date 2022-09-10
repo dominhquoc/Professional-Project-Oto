@@ -1,0 +1,99 @@
+.box{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+  border: 2px solid rgba(0, 0, 0, .5);
+  transition: all 0.5s;
+}
+
+.box .content {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  /* border: 2px solid #fff; */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+  text-align: center;
+}
+.box .content h1{
+  color: #fff;
+  font-size: 30px;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.box .content p{
+  color: #fff;
+}
+.box svg,
+.box svg rect{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+}
+.box svg rect{
+  stroke: #df2020;
+  stroke-width: 4;
+  stroke-dasharray: 300;
+  animation: animate 3s linear infinite;
+}
+@keyframes animate{
+  0%{
+      stroke-dashoffset: 800;
+  }
+  100%{
+      stroke-dashoffset: 0;
+  }
+}
+
+.box .content .product__img img{
+  width: 100%;
+  height: 160px;
+  transition: 0.4s;
+}
+
+.box:hover {
+  transform: scale(1.2);
+}
+
+.product__content h5 a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.product__content h5 {
+  margin-bottom: 30px;
+}
+
+.product__price {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #df2020;
+}
+
+.addTOCart__btn {
+  border: none;
+  padding: 7px 25px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .product__content h5 a {
+    font-size: 0.8rem;
+  }
+  .product__item {
+    padding: 20px;
+  }
+  .addTOCart__btn {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+}
