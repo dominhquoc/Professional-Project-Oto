@@ -1,6 +1,6 @@
 .box{
   position: relative;
-  width: 250px;
+  width: 275px;
   height: 300px;
   background-color: rgba(0, 0, 0, 0.85);
   box-sizing: border-box;
@@ -58,7 +58,7 @@
 }
 
 .box:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .product__content h5 a {
