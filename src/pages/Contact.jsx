@@ -44,7 +44,7 @@ tick();
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={6} md={6} xl={6}>
+          <Col xs={12} md={6} xl={6}>
             <span className="tagLine">Welcome to my Portfolio</span>
             <h1>
               {`Hi I'm `} <span>{text}</span>
@@ -60,9 +60,9 @@ tick();
             <button onClick={()=> console.log('connect')} style={{padding:"10px"}} >Let's connect</button>
             </Link>
           </Col>
-          <Col xs={6} md={6} xl={6}>
+          <Col xs={12} md={6} xl={6}>
             <div style={{textAlign:"center"}}>
-              <img src={minhQuoc} alt="Me" style={{width:"300px", height:"300px"}}/>
+              <img src={minhQuoc} alt="Me" style={{width:"280px", height:"280px"}}/>
               <span className="border_animation border_animation_1"></span>
               <span className="border_animation border_animation_2"></span>
               </div>

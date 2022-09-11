@@ -18,8 +18,8 @@
   }
 
   .slider__content img {
-    width: 35px;
-    height: 35px;
+    width: 100%;
+    height: 100%;
   }
 
   .slider__content h6 {

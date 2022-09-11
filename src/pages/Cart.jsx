@@ -17,6 +17,7 @@ const Cart = () => {
       <section>
         <Container>
           <Row>
+            <h1>Checkout</h1>
             <Col lg="12">
               {cartItems.length === 0 ? (
                 <h5 className="text-center">Your cart is empty</h5>
@@ -49,7 +50,7 @@ const Cart = () => {
                   <button className="addTOCart__btn me-4">
                     <Link to="/home">Continue Shopping</Link>
                   </button>
-                  <button className="addTOCart__btn">
+                  <button className="addTOCart__btn my-3">
                     <Link to="/checkout">Proceed to checkout</Link>
                   </button>
                 </div>
@@ -76,7 +77,7 @@ const Tr = (props) => {
       </td>
       <td className="text-center">{title}</td>
       <td className="text-center">${price}</td>
-      <td className="text-center">{quantity}px</td>
+      <td className="text-center">{quantity}</td>
       <td className="text-center cart__item-del">
         <i class="ri-delete-bin-line" onClick={deleteItem}></i>
       </td>

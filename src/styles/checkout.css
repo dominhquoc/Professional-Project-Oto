@@ -1,10 +1,13 @@
 .checkout__bill {
-  background: #fde4e4;
+  background: #000;
   padding: 30px;
+}
+.checkout__bill h6,.checkout__bill h5{
+  color: #fff;
 }
 
 .checkout__total {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #000;
   padding-top: 30px;
 }
 

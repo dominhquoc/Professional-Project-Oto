@@ -10,9 +10,8 @@
 
 .cart {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 400px;
+  transform: scale(50%,50%);
+  width: 100%;
   height: 100%;
   background: #fff;
   z-index: 999999;
@@ -26,8 +25,8 @@
 }
 
 .cart__close span i {
-  font-size: 1.1rem;
-  background: #212245;
+  font-size: 2rem;
+  background: #1e272e;
   padding: 5px;
   border-radius: 50%;
   color: #fff;
@@ -38,6 +37,10 @@
   overflow-y: scroll;
 }
 
+.cart__item-list h6{
+  font-size: 2rem;
+}
+
 .cart__bottom {
   position: absolute;
   bottom: 0;
@@ -45,34 +48,40 @@
   padding: 5px 20px;
   width: 100%;
   height: 80px;
-  background: #df2020;
+  background: #1e272e;
 }
 
 .cart__bottom h6 {
-  font-size: 1rem;
+  font-size: 2rem;
   color: #fff;
 }
 
 .cart__bottom h6 span {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .cart__bottom button {
   border: none;
-  padding: 4px 20px;
+  padding: 8px 30px;
   border-radius: 5px;
   background: #fff;
-  color: #212245;
+  color: #1e272e;
+  font-size: 2rem;
 }
 
 .cart__bottom button a {
-  color: #212245;
+  color: #1e272e;
   font-weight: 600;
 }
 
 @media only screen and (max-width: 576px) {
   .cart {
-    width: 300px !important;
+    position: absolute;
+    transform: scale(100%,100%);
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999999;
   }
 }

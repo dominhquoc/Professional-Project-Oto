@@ -110,7 +110,7 @@
     right: 0;
     width: 250px;
     height: 100%;
-    background: #fff;
+    background: #000;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -149,5 +149,24 @@
   }
   .logo h5 {
     margin-top: -55px;
+  }
+}
+@media only screen and (max-width: 568px){
+  .logo img {
+    width: 35px;
+    object-fit: contain;
+    margin-top: 10px;
+  }
+  
+  .logo h5 {
+    font-weight: 600;
+    font-size: 10px;
+    color: #fff;
+    margin-top: -50px;
+    margin-bottom: 0;
+  }
+
+  .hero__img{
+    margin-top: 60px;
   }
 }

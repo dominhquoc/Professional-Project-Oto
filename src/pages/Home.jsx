@@ -123,7 +123,7 @@ const Home = () => {
             </Col>
           
             {hotCar.map((item) => (
-              <Col lg="3" md="4" sm="6" xs="6" key={item.id}>
+              <Col lg="3" md="4" sm="12" xs="12" key={item.id} className="new-models-568">
                 <ProductCard item={item} />
               </Col>
             ))}
@@ -139,7 +139,7 @@ const Home = () => {
             </Col>
 
             <Col lg="12">
-              <div className="food__category d-flex align-items-center justify-content-center gap-4">
+              <div className="food__category d-flex align-items-center flex-wrap justify-content-center gap-4">
                 <button
                   className={`all__btn  ${
                     category === "ALL" ? "CarBtnActive" : ""
@@ -191,7 +191,7 @@ const Home = () => {
             </Col>
 
             {allProducts.map((item) => (
-              <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mt-5">
+              <Col lg="3" md="4" sm="12" xs="12" key={item.id} className="mt-5">
                 <ProductCard item={item} />
               </Col>
             ))}
