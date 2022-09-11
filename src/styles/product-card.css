@@ -39,7 +39,7 @@
 .box svg rect{
   stroke: #df2020;
   stroke-width: 4;
-  stroke-dasharray: 300;
+  stroke-dasharray: 330;
   animation: animate 3s linear infinite;
 }
 @keyframes animate{
@@ -97,3 +97,19 @@
     font-size: 0.7rem;
   }
 }
+@media only screen and (max-width: 414px) {
+  .box{
+    margin-left: 13%;
+  }
+  }
+
+@media only screen and (max-width: 375px) {
+.box{
+  margin-left: 10%;
+}
+}
+@media only screen and (max-width: 320px) {
+  .box{
+    margin-left: 0;
+  }
+  }
