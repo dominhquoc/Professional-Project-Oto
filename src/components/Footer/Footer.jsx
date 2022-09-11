@@ -71,14 +71,14 @@ const Footer = () => {
         </Row>
 
         <Row className="mt-5">
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" sm="12">
             <p className="copyright__text">
               Copyright - 2022
             </p>
           </Col>
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" sm="12">
             <div className="social__links d-flex align-items-center gap-4 justify-content-end">
-              <p className="m-0">Follow: </p>
+              <p className="m-0" style={{color:'#fff'}}>Follow: </p>
               <span>
                 {" "}
                 <Link to="https://www.facebook.com/muhib160">
