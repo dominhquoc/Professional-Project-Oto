@@ -50,7 +50,7 @@ tick();
               {`Hi I'm `} <span>{text}</span>
             </h1>
             <p>
-              My name is Quoc. I'm 16 years old. I'm from HCM city but I live in
+              My name is Quoc. I'm 26 years old. I'm from HCM city but I live in
               Tan Binh District. My hobbies are watching youtube, playing video
               game and playing video game. I love Pizza. I have one bird. I'm
               very ambitious sometimes T'm too honest. I am average height and
