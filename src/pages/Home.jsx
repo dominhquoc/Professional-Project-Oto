@@ -123,7 +123,7 @@ const Home = () => {
             </Col>
           
             {hotCar.map((item) => (
-              <Col lg="3" md="4" sm="12" xs="12" key={item.id} className="new-models-568">
+              <Col lg="3" md="6" sm="12" xs="12" key={item.id} className="new-models-568 mb-5">
                 <ProductCard item={item} />
               </Col>
             ))}
@@ -191,7 +191,7 @@ const Home = () => {
             </Col>
 
             {allProducts.map((item) => (
-              <Col lg="3" md="4" sm="12" xs="12" key={item.id} className="mt-5">
+              <Col lg="3" md="6" sm="12" xs="12" key={item.id} className="mt-5">
                 <ProductCard item={item} />
               </Col>
             ))}

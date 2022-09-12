@@ -48,22 +48,22 @@ const Footer = () => {
             <h5 style={{color:'#fff'}}>Blog & Image</h5>
             <div className="layout">
               <div className="layout-item">
-              <img src={AMG} alt="" style={{width:"150px"}} />
+              <img src={AMG} alt="" className="img-footer" />
               </div>
               <div className="layout-item">
-              <img src={AMG} alt="" style={{width:"150px"}} />
+              <img src={AMG} alt="" className="img-footer" />
               </div>
               <div className="layout-item">
-              <img src={AMG} alt="" style={{width:"150px"}} />
+              <img src={AMG} alt="" className="img-footer" />
               </div>
               <div className="layout-item">
-              <img src={AMG} alt="" style={{width:"150px"}} />
+              <img src={AMG} alt="" className="img-footer" />
               </div>
               <div className="layout-item">
-              <img src={AMG} alt="" style={{width:"150px"}} />
+              <img src={AMG} alt="" className="img-footer" />
               </div>
               <div className="layout-item">
-              <img src={AMG} alt="" style={{width:"150px"}} />
+              <img src={AMG} alt="" className="img-footer" />
               </div>
             </div>
           </Col>

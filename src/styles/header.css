@@ -86,11 +86,11 @@
 
 @media only screen and (max-width: 992px) {
   .logo img {
-    width: calc(100% - 70%);
+    width: 45px;
   }
   .logo h5 {
-    font-size: 0.8rem;
-    margin-top: -15px;
+    font-size: 0.7rem;
+    margin-top: 0px;
   }
 
   .navigation {
@@ -148,7 +148,7 @@
     margin-top: -70px !important;
   }
   .logo h5 {
-    margin-top: -55px;
+    margin-top: -50px;
   }
 }
 @media only screen and (max-width: 568px){

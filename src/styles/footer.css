@@ -4,6 +4,9 @@
   background: #000;
 }
 
+.img-footer{
+  width: 140px;
+}
 .social__links{
   display: flex;
   align-items: center;
@@ -109,6 +112,9 @@
     padding: 4px 20px;
     font-size: 0.7rem;
   }
+
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -123,6 +129,13 @@
   .delivery__time-item p {
     font-size: 0.7rem;
     margin-bottom: 0;
+  }
+  .img-footer{
+    width: 70px;
+  }
+  .social__links{
+    gap: 10;
+    justify-content: start;
   }
 }
 
