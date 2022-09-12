@@ -31,3 +31,4 @@
 .input__register:invalid[focused="true"] ~ span{
     display: block;
 }
+

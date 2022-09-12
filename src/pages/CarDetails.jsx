@@ -65,20 +65,20 @@ const FoodDetails = () => {
                   className="img__item mb-3"
                   onClick={() => setPreviewImg(product.image01)}
                 >
-                  <img src={product.image01} alt="" className="w-50" />
+                  <img src={product.image01} alt="" className="cart-img-detail" />
                 </div>
                 <div
                   className="img__item mb-3"
                   onClick={() => setPreviewImg(product.image02)}
                 >
-                  <img src={product.image02} alt="" className="w-50" />
+                  <img src={product.image02} alt="" className="cart-img-detail" />
                 </div>
 
                 <div
                   className="img__item"
                   onClick={() => setPreviewImg(product.image03)}
                 >
-                  <img src={product.image03} alt="" className="w-50" />
+                  <img src={product.image03} alt="" className="cart-img-detail" />
                 </div>
               </div>
             </Col>
@@ -187,7 +187,7 @@ const FoodDetails = () => {
             </Col>
 
             {relatedProduct.map((item) => (
-              <Col lg="3" md="4" sm="6" xs="6" className="mb-4" key={item.id}>
+              <Col lg="3" md="4" sm="12" xs="12" className="mb-4" key={item.id}>
                 <ProductCard item={item} />
               </Col>
             ))}

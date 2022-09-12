@@ -77,7 +77,7 @@ const Footer = () => {
             </p>
           </Col>
           <Col lg="6" md="6" sm="12">
-            <div className="social__links d-flex align-items-center gap-4 justify-content-end">
+            <div className="social__links">
               <p className="m-0" style={{color:'#fff'}}>Follow: </p>
               <span>
                 {" "}

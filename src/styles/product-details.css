@@ -1,7 +1,11 @@
 .single__product-content {
   padding-left: 50px;
 }
-
+.cart-img-detail{
+  width: 100px;
+  height: 65px;
+  padding-left: 10px;
+}
 .product__price {
   display: flex;
   align-items: center;
@@ -146,4 +150,5 @@
   .product__main-img {
     margin-bottom: 20px;
   }
+
 }

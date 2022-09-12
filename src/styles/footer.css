@@ -4,6 +4,13 @@
   background: #000;
 }
 
+.social__links{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 40px;
+}
+
 .footer__logo img {
   width: calc(100% - 80%);
   margin-bottom: 5px;
@@ -123,11 +130,10 @@
   .copyright__text {
     text-align: center;
   }
-
-  .social__links p {
-    font-size: 0.8rem;
+  .social__links{
+    gap: 0;
+    justify-content: center;
   }
-
   .social__links span {
     padding: 4px;
   }
