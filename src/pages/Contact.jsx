@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import minhQuoc from "../assets/images/quoc-removebg-preview.png";
+import minhQuoc from "../assets/images/generous.png";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
